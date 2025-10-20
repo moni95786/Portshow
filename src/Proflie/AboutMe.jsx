@@ -27,7 +27,7 @@ function AboutMe() {
           </p>
         </div>
       <div className='bg-gray-800 mt-5 rounded-xl shadow-2xl shadow-black/40'>
-        <h3 className='flex text-[2.75rem] justify-center text-white font-semibold'>My Skill >> </h3>
+        <h3 className='flex text-[2.75rem] justify-center text-white font-semibold'>My Skill &gt;&gt; </h3>
           <ul className='flex flex-col items-center my-10 px-70 justify-center md:flex-row md:justify-between text-[4.25rem] pb-5'>
             {LanguageLogo.map(({icon: Logo, color}, index) => (
               <li key={index} className='flex flex-col items-center gap-2 p-4  hover:scale-110 transition-transform duration-300 hover:bg-white hover:shadow-white/40 hover:shadow-md rounded-xl backdrop-blur-md cursor-pointer'>
