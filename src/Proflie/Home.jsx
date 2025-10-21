@@ -9,8 +9,8 @@ function Main() {
                 <img className='h-full w-full  object-contain ' src={Proflie} alt="" />
             </div>
 
-            <div className='m-5 md:m-5 bg-gray-900 rounded-xl p-10 text-white '>
-              <div className='bg-gray-800 rounded-xl p-5 '>
+            <div className='m-5 bg-gray-900 rounded-xl p-10 text-white '>
+              <div className='bg-gray-800 rounded-xl p-5 my-30 '>
                 <h2 className='font-semibold text-[2.75rem]'>ประวัติส่วนตัว</h2>
                 <p className='m-5 text-[1.15rem]'>ชื่อ : นายเดลมอน หล่ำ <br />
                     เกิด : วันที่ 29 เดือน กรกฎาคม พ.ศ.2550 <br /> 
