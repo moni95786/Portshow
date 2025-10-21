@@ -5,8 +5,8 @@ function Main() {
   return (
     <div className='bg-cyan-100 ' id='Home'>
         <div className='container max-w-[1320px] mx-auto p-10 grid grid-cols-1 md:grid-cols-2 md:justify-between md:p-0'>
-            <div className='h-[600px] w-[550px] overflow-hidden rounded-md  my-5 ml-10 md:ml-0'>
-                <img className='h-full w-full  object-cover ' src={Proflie} alt="" />
+            <div className='h-60% w-55% overflow-hidden rounded-md  my-5 ml-10 md:ml-0'>
+                <img className='h-full w-full  object-contain ' src={Proflie} alt="" />
             </div>
 
             <div className='m-5 md:m-5 bg-gray-900 rounded-xl p-10 text-white '>
