@@ -20,7 +20,7 @@ function Performance() {
 
             <div className='w-full mx-0 md:mx-10 bg-purple-900 text-white p-6 md:p-10 rounded-2xl mt-4 md:mt-0'> 
                 <h2 className='text-[1.6rem] md:text-[2.75rem] font-semibold '>แข่งทักษะและอบรม Mos Camp SongKhla 2024</h2>
-                <p className='mt-3 text-[1rem] md:text-[1.25rem]'>ผลงานชิ้นนี้เป็นการแข่งทักษะโปรแกรมชุด Office ประกอบไปด้วยดังนี้  PowerPoint, Word, Excal และมีโปรแกรมของ Adobe เป็นโปรแกรม Photoshop </p>
+                <p className='mt-3 text-[1rem] md:text-[1.25rem]'>ผลงานชิ้นนี้เป็นการแข่งทักษะโปรแกรมชุด Office ประกอบไปด้วยดังนี้  PowerPoint, Word, Excel และมีโปรแกรมของ Adobe เป็นโปรแกรม Photoshop </p>
             </div>
             </div>
         </div>

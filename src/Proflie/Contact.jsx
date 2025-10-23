@@ -8,9 +8,9 @@ function Contact() {
         <div className='container max-w-[1320px] mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-6 p-4 md:h-[250px]'>
             <div className='flex justify-center md:justify-start'>
                 <ul className='flex flex-row gap-6'>
-                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href=""><FaInstagram /></a></li>
-                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href=""><FaFacebook /></a></li>
-                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href=""><FaLine /></a></li>
+                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href="https://www.instagram.com/m.xmo_n.x?igsh=YnowMG04YzZ1ZGdz"><FaInstagram /></a></li>
+                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href="https://www.facebook.com/share/1BaQN2FJ6K/"><FaFacebook /></a></li>
+                    <li className='hover:scale-110 transition-transform duration-300'><a className='text-[2rem] md:text-[4.5rem] text-white' href="https://line.me/ti/p/NJmHHGQnAQ"><FaLine /></a></li>
                 </ul>
             </div>
               <div className='w-full md:w-auto'>
