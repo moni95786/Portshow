@@ -17,20 +17,20 @@ const LanguageLogo = [
 function AboutMe() {
   return (
     <div className='bg-cyan-100' id='aboutMe'>
-      <div className='container max-w-[1320px] mx-auto p-10  md:p-5'>
-        <div className='bg-gray-700 text-white rounded-xl p-5 shadow-2xl shadow-black/40'>
-          <h2 className=' font-semibold text-[2.75rem]'>About-Me</h2>
-          <p className='m-5 text-[1.15rem]'>สวัสดีครับ ผมชื่อมอน ผมมีความสนใจในด้านโปรแกรมเมอร์ตั้งแต่ผมอยู่ ม.3 โดยเริ่มเขียนครั้งแรกโดยใช้ภาษา Python ซึ่งเป็นภาษาที่เข้าใจง่ายและไม่ยากเลยทำให้ชอบการเขียนโค้ด
+      <div className='container max-w-[1320px] mx-auto p-4 md:p-5'>
+        <div className='bg-gray-700 text-white rounded-xl p-4 shadow-2xl shadow-black/40'>
+          <h2 className=' font-semibold text-[1.6rem] md:text-[2.75rem]'>About-Me</h2>
+          <p className='mt-3 text-[1rem] md:text-[1.15rem] leading-relaxed'>สวัสดีครับ ผมชื่อมอน ผมมีความสนใจในด้านโปรแกรมเมอร์ตั้งแต่ผมอยู่ ม.3 โดยเริ่มเขียนครั้งแรกโดยใช้ภาษา Python ซึ่งเป็นภาษาที่เข้าใจง่ายและไม่ยากเลยทำให้ชอบการเขียนโค้ด
              เรื่อยมา <br />
              หลังจากขึ้น ปวช.1 ก็สนใจอยากทำเว็บไซต์ขึ้นมาจึงศึกษาด้วยตัวเองและมีเพื่อนที่ค่อยช่วยในการให้คำปรึกษาทำให้เรีนนรู้การเขียนเว็บไซต์เบื่องต้นมา<br />
              โดยผมใช้ความสามารถนี้ในการสร้าง Proflie ผ่านเว็บไซต์นี้ครับ
           </p>
         </div>
-      <div className='bg-gray-800 mt-5 rounded-xl shadow-2xl shadow-black/40 justify-center'>
-        <h3 className='flex text-[2.75rem] justify-center text-white font-semibold'>My Skill &gt;&gt; </h3>
-          <ul className='flex flex-col items-center my-10 px-50 justify-center md:flex-row md:justify-between text-[4.25rem] pb-5'>
+      <div className='bg-gray-800 mt-4 rounded-xl shadow-2xl shadow-black/40'>
+        <h3 className='flex text-[1.6rem] md:text-[2.75rem] justify-center text-white font-semibold'>My Skill &gt;&gt; </h3>
+          <ul className='flex flex-wrap items-center gap-4 my-6 justify-center md:justify-between text-[3rem] md:text-[4.25rem] pb-5 px-2'>
             {LanguageLogo.map(({icon: Logo, color}, index) => (
-              <li key={index} className='flex flex-col items-center  gap-2 p-4  hover:scale-110 transition-transform duration-300 hover:bg-white hover:shadow-white/40 hover:shadow-md rounded-xl backdrop-blur-md cursor-pointer'>
+              <li key={index} className='flex flex-col items-center gap-2 p-3 hover:scale-110 transition-transform duration-300 hover:bg-white hover:shadow-white/40 hover:shadow-md rounded-xl backdrop-blur-md cursor-pointer'>
                   <Logo className={`${color}`} />
               </li>
             ))}
